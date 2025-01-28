@@ -3,7 +3,7 @@ os.environ["GRPC_VERBOSITY"] = "ERROR"
 
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyCG6DgW2hTSJP5MPweVDOaXoyIo4rmeZRQ")
+genai.configure(api_key="API key")
 
 # Create the model
 generation_config = {
